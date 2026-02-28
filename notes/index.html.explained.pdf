@@ -1,0 +1,1111 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R] /Count 9 >>
+endobj
+3 0 obj
+<< /Length 4003 >>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 36 756 Tm
+(Code Explanation: index.html) Tj
+0 -12 Td
+(Generated: 2026-02-06 01:35) Tj
+0 -12 Td
+(Block 1 \(lines 1-1\)) Tj
+0 -12 Td
+(L1: ?<!doctype html>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 2 \(lines 2-2\)) Tj
+0 -12 Td
+(L2: <html lang="en">) Tj
+0 -12 Td
+(Explanation: Root HTML element wrapping the entire document.) Tj
+0 -12 Td
+(Block 3 \(lines 3-8\)) Tj
+0 -12 Td
+(L3: <head>) Tj
+0 -12 Td
+(L4:   <meta charset="UTF-8">) Tj
+0 -12 Td
+(L5:   <meta name="viewport" content="width=device-width, initial-scale=1.0">) Tj
+0 -12 Td
+(L6:   <title>Pixel OS Portfolio</title>) Tj
+0 -12 Td
+(L7:   <link rel="stylesheet" href="style.css">) Tj
+0 -12 Td
+(L8: </head>) Tj
+0 -12 Td
+(Explanation: Head section: metadata, title, and stylesheet links.) Tj
+0 -12 Td
+(Block 4 \(lines 9-9\)) Tj
+0 -12 Td
+(L9: <body>) Tj
+0 -12 Td
+(Explanation: Body wrapper for all visible UI content.) Tj
+0 -12 Td
+(Block 5 \(lines 10-56\)) Tj
+0 -12 Td
+(L10:   <svg class="sprite" aria-hidden="true" focusable="false">) Tj
+0 -12 Td
+(L11:     <symbol id="icon-computer" viewBox="0 0 24 24" shape-rendering="crispEdges">) Tj
+0 -12 Td
+(L12:       <rect x="2" y="3" width="20" height="14" fill="#93c5fd" />) Tj
+0 -12 Td
+(L13:       <rect x="3" y="4" width="18" height="12" fill="#e0f2fe" />) Tj
+0 -12 Td
+(L14:       <rect x="2" y="3" width="20" height="14" fill="none" stroke="#1f2937" stroke-) Tj
+0 -12 Td
+(     width="1" />) Tj
+0 -12 Td
+(L15:       <rect x="9" y="17" width="6" height="2" fill="#1f2937" />) Tj
+0 -12 Td
+(L16:       <rect x="7" y="19" width="10" height="2" fill="#475569" />) Tj
+0 -12 Td
+(L17:     </symbol>) Tj
+0 -12 Td
+(L18:     <symbol id="icon-user" viewBox="0 0 24 24" shape-rendering="crispEdges">) Tj
+0 -12 Td
+(L19:       <rect x="8" y="3" width="8" height="8" fill="#fbcfe8" />) Tj
+0 -12 Td
+(L20:       <rect x="7" y="4" width="10" height="6" fill="#f9a8d4" />) Tj
+0 -12 Td
+(L21:       <rect x="6" y="11" width="12" height="8" fill="#a855f7" />) Tj
+0 -12 Td
+(L22:       <rect x="4" y="19" width="16" height="3" fill="#7c3aed" />) Tj
+0 -12 Td
+(L23:     </symbol>) Tj
+0 -12 Td
+(L24:     <symbol id="icon-paint" viewBox="0 0 24 24" shape-rendering="crispEdges">) Tj
+0 -12 Td
+(L25:       <rect x="3" y="4" width="18" height="16" fill="#fef08a" stroke="#92400e" stroke-) Tj
+0 -12 Td
+(     width="1" />) Tj
+0 -12 Td
+(L26:       <rect x="5" y="6" width="4" height="4" fill="#f87171" />) Tj
+0 -12 Td
+(L27:       <rect x="10" y="6" width="4" height="4" fill="#60a5fa" />) Tj
+0 -12 Td
+(L28:       <rect x="15" y="6" width="4" height="4" fill="#4ade80" />) Tj
+0 -12 Td
+(L29:       <rect x="8" y="12" width="8" height="4" fill="#fdba74" />) Tj
+0 -12 Td
+(L30:       <rect x="6" y="18" width="12" height="2" fill="#92400e" />) Tj
+0 -12 Td
+(L31:     </symbol>) Tj
+0 -12 Td
+(L32:     <symbol id="icon-doc" viewBox="0 0 24 24" shape-rendering="crispEdges">) Tj
+0 -12 Td
+(L33:       <rect x="5" y="3" width="14" height="18" fill="#f8fafc" stroke="#1f2937" stroke-) Tj
+0 -12 Td
+(     width="1" />) Tj
+0 -12 Td
+(L34:       <rect x="7" y="7" width="10" height="2" fill="#94a3b8" />) Tj
+0 -12 Td
+(L35:       <rect x="7" y="11" width="10" height="2" fill="#94a3b8" />) Tj
+0 -12 Td
+(L36:       <rect x="7" y="15" width="8" height="2" fill="#94a3b8" />) Tj
+0 -12 Td
+(L37:     </symbol>) Tj
+0 -12 Td
+(L38:     <symbol id="icon-music" viewBox="0 0 24 24" shape-rendering="crispEdges">) Tj
+0 -12 Td
+(L39:       <rect x="3" y="6" width="18" height="12" fill="#38bdf8" stroke="#0f172a" stroke-) Tj
+0 -12 Td
+(     width="1" />) Tj
+0 -12 Td
+(L40:       <rect x="5" y="8" width="6" height="8" fill="#0ea5e9" />) Tj
+0 -12 Td
+(L41:       <rect x="13" y="8" width="6" height="8" fill="#0ea5e9" />) Tj
+0 -12 Td
+(L42:       <rect x="9" y="10" width="6" height="4" fill="#e2e8f0" />) Tj
+0 -12 Td
+(L43:     </symbol>) Tj
+0 -12 Td
+(L44:     <symbol id="icon-gear" viewBox="0 0 24 24" shape-rendering="crispEdges">) Tj
+0 -12 Td
+(L45:       <rect x="9" y="2" width="6" height="4" fill="#22d3ee" />) Tj
+0 -12 Td
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3528 >>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 36 756 Tm
+(L46:       <rect x="9" y="18" width="6" height="4" fill="#22d3ee" />) Tj
+0 -12 Td
+(L47:       <rect x="2" y="9" width="4" height="6" fill="#22d3ee" />) Tj
+0 -12 Td
+(L48:       <rect x="18" y="9" width="4" height="6" fill="#22d3ee" />) Tj
+0 -12 Td
+(L49:       <rect x="7" y="7" width="10" height="10" fill="#0f172a" />) Tj
+0 -12 Td
+(L50:       <rect x="9" y="9" width="6" height="6" fill="#38bdf8" />) Tj
+0 -12 Td
+(L51:     </symbol>) Tj
+0 -12 Td
+(L52:     <symbol id="icon-folder" viewBox="0 0 24 24" shape-rendering="crispEdges">) Tj
+0 -12 Td
+(L53:       <rect x="2" y="7" width="20" height="13" fill="#facc15" stroke="#a16207" stroke-) Tj
+0 -12 Td
+(     width="1" />) Tj
+0 -12 Td
+(L54:       <rect x="2" y="5" width="10" height="4" fill="#fde047" stroke="#a16207" stroke-) Tj
+0 -12 Td
+(     width="1" />) Tj
+0 -12 Td
+(L55:     </symbol>) Tj
+0 -12 Td
+(L56:   </svg>) Tj
+0 -12 Td
+(Explanation: Defines SVG symbols used as pixel icons across the UI.) Tj
+0 -12 Td
+(Block 6 \(lines 58-58\)) Tj
+0 -12 Td
+(L58:   <div id="desktop">) Tj
+0 -12 Td
+(Explanation: Desktop container that holds the top bar, icons, windows, and dock.) Tj
+0 -12 Td
+(Block 7 \(lines 59-59\)) Tj
+0 -12 Td
+(L59:     <header class="topbar">) Tj
+0 -12 Td
+(Explanation: Head section: metadata, title, and stylesheet links.) Tj
+0 -12 Td
+(Block 8 \(lines 60-60\)) Tj
+0 -12 Td
+(L60:       <div class="menu-left">) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 9 \(lines 61-61\)) Tj
+0 -12 Td
+(L61:         <div class="menu-root">) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 10 \(lines 62-62\)) Tj
+0 -12 Td
+(L62:           <button class="menu-button" id="menu-toggle" type="button" aria-expanded="false") Tj
+0 -12 Td
+(     aria-controls="menu-dropdown">) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 11 \(lines 63-63\)) Tj
+0 -12 Td
+(L63:             <span class="menu-logo" aria-hidden="true"></span>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 12 \(lines 64-64\)) Tj
+0 -12 Td
+(L64:             CHUS) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 13 \(lines 65-65\)) Tj
+0 -12 Td
+(L65:           </button>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 14 \(lines 66-66\)) Tj
+0 -12 Td
+(L66:           <div class="menu-dropdown" id="menu-dropdown" role="menu" aria-label="Chus menu">) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 15 \(lines 67-67\)) Tj
+0 -12 Td
+(L67:             <button class="menu-option" type="button" data-menu-action="about">ABOUT THIS) Tj
+0 -12 Td
+(     WEB</button>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 16 \(lines 68-68\)) Tj
+0 -12 Td
+(L68:             <button class="menu-option" type="button" data-menu-action="settings">SYSTEM) Tj
+0 -12 Td
+(     PREFERENCES...</button>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 17 \(lines 69-69\)) Tj
+0 -12 Td
+(L69:             <div class="menu-separator" role="presentation"></div>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 18 \(lines 70-70\)) Tj
+0 -12 Td
+(L70:             <button class="menu-option" type="button" data-menu-) Tj
+0 -12 Td
+(     action="portfolio">PORTFOLIO</button>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 19 \(lines 71-71\)) Tj
+0 -12 Td
+(L71:             <button class="menu-option" type="button" data-menu-action="login">LOGIN /) Tj
+0 -12 Td
+(     REGISTER</button>) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3373 >>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 36 756 Tm
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 20 \(lines 72-72\)) Tj
+0 -12 Td
+(L72:           </div>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 21 \(lines 73-73\)) Tj
+0 -12 Td
+(L73:         </div>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 22 \(lines 74-74\)) Tj
+0 -12 Td
+(L74:         <span class="menu-item">FILE</span>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 23 \(lines 75-75\)) Tj
+0 -12 Td
+(L75:         <span class="menu-item">EDIT</span>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 24 \(lines 76-76\)) Tj
+0 -12 Td
+(L76:         <span class="menu-item">VIEW</span>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 25 \(lines 77-77\)) Tj
+0 -12 Td
+(L77:         <span class="menu-item">WINDOW</span>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 26 \(lines 78-78\)) Tj
+0 -12 Td
+(L78:         <span class="menu-item">HELP</span>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 27 \(lines 79-79\)) Tj
+0 -12 Td
+(L79:       </div>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 28 \(lines 80-80\)) Tj
+0 -12 Td
+(L80:       <div class="menu-right" id="clock">THU FEB 5 11:56 PM</div>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 29 \(lines 81-81\)) Tj
+0 -12 Td
+(L81:     </header>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 30 \(lines 83-104\)) Tj
+0 -12 Td
+(L83:     <section class="desktop-icons" aria-label="Desktop icons">) Tj
+0 -12 Td
+(L84:       <button class="desktop-icon" data-window="window-computer" type="button">) Tj
+0 -12 Td
+(L85:         <svg class="icon"><use href="#icon-computer"></use></svg>) Tj
+0 -12 Td
+(L86:         <span>MY COMP...</span>) Tj
+0 -12 Td
+(L87:       </button>) Tj
+0 -12 Td
+(L88:       <button class="desktop-icon" data-window="window-about" type="button">) Tj
+0 -12 Td
+(L89:         <svg class="icon"><use href="#icon-user"></use></svg>) Tj
+0 -12 Td
+(L90:         <span>ABOUT</span>) Tj
+0 -12 Td
+(L91:       </button>) Tj
+0 -12 Td
+(L92:       <button class="desktop-icon" data-window="window-paint" type="button">) Tj
+0 -12 Td
+(L93:         <svg class="icon"><use href="#icon-paint"></use></svg>) Tj
+0 -12 Td
+(L94:         <span>PAINT</span>) Tj
+0 -12 Td
+(L95:       </button>) Tj
+0 -12 Td
+(L96:       <button class="desktop-icon" data-window="window-music" type="button">) Tj
+0 -12 Td
+(L97:         <svg class="icon"><use href="#icon-music"></use></svg>) Tj
+0 -12 Td
+(L98:         <span>MUSIC</span>) Tj
+0 -12 Td
+(L99:       </button>) Tj
+0 -12 Td
+(L100:       <button class="desktop-icon" data-window="window-settings" type="button">) Tj
+0 -12 Td
+(L101:         <svg class="icon"><use href="#icon-gear"></use></svg>) Tj
+0 -12 Td
+(L102:         <span>SETTINGS</span>) Tj
+0 -12 Td
+(L103:       </button>) Tj
+0 -12 Td
+(L104:     </section>) Tj
+0 -12 Td
+(Explanation: Desktop app shortcuts; double-click opens the associated window.) Tj
+0 -12 Td
+(Block 31 \(lines 106-144\)) Tj
+0 -12 Td
+(L106:     <section class="window is-open" id="window-computer" data-title="MY COMPUTER") Tj
+0 -12 Td
+(      role="dialog" aria-hidden="false">) Tj
+0 -12 Td
+(L107:       <div class="window-titlebar">) Tj
+0 -12 Td
+(L108:         <div class="window-controls">) Tj
+0 -12 Td
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 3943 >>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 36 756 Tm
+(L109:           <button class="control close" data-action="close" aria-label="Close"></button>) Tj
+0 -12 Td
+(L110:           <button class="control minimize" data-action="minimize" aria-) Tj
+0 -12 Td
+(      label="Minimize"></button>) Tj
+0 -12 Td
+(L111:           <button class="control maximize" data-action="maximize" aria-) Tj
+0 -12 Td
+(      label="Maximize"></button>) Tj
+0 -12 Td
+(L112:         </div>) Tj
+0 -12 Td
+(L113:         <div class="window-title">MY COMPUTER</div>) Tj
+0 -12 Td
+(L114:         <div></div>) Tj
+0 -12 Td
+(L115:       </div>) Tj
+0 -12 Td
+(L116:       <div class="window-toolbar">) Tj
+0 -12 Td
+(L117:         <button class="icon-btn" id="computer-back" type="button"><<</button>) Tj
+0 -12 Td
+(L118:         <div class="breadcrumb" id="computer-breadcrumb">PORTFOLIO</div>) Tj
+0 -12 Td
+(L119:       </div>) Tj
+0 -12 Td
+(L120:       <div class="window-body">) Tj
+0 -12 Td
+(L121:         <aside class="file-sidebar" id="computer-sidebar">) Tj
+0 -12 Td
+(L122:           <button class="sidebar-item active" data-section="portfolio" type="button">) Tj
+0 -12 Td
+(L123:             <svg class="icon small"><use href="#icon-folder"></use></svg>) Tj
+0 -12 Td
+(L124:             PORTFOLIO) Tj
+0 -12 Td
+(L125:           </button>) Tj
+0 -12 Td
+(L126:           <button class="sidebar-item" data-section="about" type="button">) Tj
+0 -12 Td
+(L127:             <svg class="icon small"><use href="#icon-user"></use></svg>) Tj
+0 -12 Td
+(L128:             ABOUT) Tj
+0 -12 Td
+(L129:           </button>) Tj
+0 -12 Td
+(L130:           <button class="sidebar-item" data-section="contact" type="button">) Tj
+0 -12 Td
+(L131:             <svg class="icon small"><use href="#icon-doc"></use></svg>) Tj
+0 -12 Td
+(L132:             CONTACT) Tj
+0 -12 Td
+(L133:           </button>) Tj
+0 -12 Td
+(L134:           <button class="sidebar-item" data-section="experience" type="button">) Tj
+0 -12 Td
+(L135:             <svg class="icon small"><use href="#icon-folder"></use></svg>) Tj
+0 -12 Td
+(L136:             WORK EXPERIENCE) Tj
+0 -12 Td
+(L137:           </button>) Tj
+0 -12 Td
+(L138:         </aside>) Tj
+0 -12 Td
+(L139:         <div class="file-list" id="computer-list"></div>) Tj
+0 -12 Td
+(L140:         <div class="file-preview" id="computer-preview">) Tj
+0 -12 Td
+(L141:           <div class="empty-state">SELECT A FILE TO PREVIEW</div>) Tj
+0 -12 Td
+(L142:         </div>) Tj
+0 -12 Td
+(L143:       </div>) Tj
+0 -12 Td
+(L144:     </section>) Tj
+0 -12 Td
+(Explanation: Window section: My Computer file browser and preview area.) Tj
+0 -12 Td
+(Block 32 \(lines 146-202\)) Tj
+0 -12 Td
+(L146:     <section class="window" id="window-about" data-title="ABOUT" role="dialog" aria-) Tj
+0 -12 Td
+(      hidden="true">) Tj
+0 -12 Td
+(L147:       <div class="window-titlebar">) Tj
+0 -12 Td
+(L148:         <div class="window-controls">) Tj
+0 -12 Td
+(L149:           <button class="control close" data-action="close" aria-label="Close"></button>) Tj
+0 -12 Td
+(L150:           <button class="control minimize" data-action="minimize" aria-) Tj
+0 -12 Td
+(      label="Minimize"></button>) Tj
+0 -12 Td
+(L151:           <button class="control maximize" data-action="maximize" aria-) Tj
+0 -12 Td
+(      label="Maximize"></button>) Tj
+0 -12 Td
+(L152:         </div>) Tj
+0 -12 Td
+(L153:         <div class="window-title">ABOUT</div>) Tj
+0 -12 Td
+(L154:         <div></div>) Tj
+0 -12 Td
+(L155:       </div>) Tj
+0 -12 Td
+(L156:       <div class="window-body about-body">) Tj
+0 -12 Td
+(L157:         <div class="resume">) Tj
+0 -12 Td
+(L158:           <div class="resume-header">) Tj
+0 -12 Td
+(L159:             <div class="resume-photo" role="img" aria-label="Portrait placeholder"></div>) Tj
+0 -12 Td
+(L160:             <div class="resume-intro">) Tj
+0 -12 Td
+(L161:               <h2 class="pixel-title">YOUR NAME</h2>) Tj
+0 -12 Td
+(L162:               <p>Art director and UX/UI designer with 10+ years in advertising and) Tj
+0 -12 Td
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 3784 >>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 36 756 Tm
+(      startups, focused on user experience and branding.</p>) Tj
+0 -12 Td
+(L163:               <p>Currently building playful digital systems and pixel-perfect interfaces.) Tj
+0 -12 Td
+(      Replace with your real bio.</p>) Tj
+0 -12 Td
+(L164:             </div>) Tj
+0 -12 Td
+(L165:           </div>) Tj
+0 -12 Td
+(L167:           <div class="resume-section">) Tj
+0 -12 Td
+(L168:             <h3 class="pixel-title">SKILLS</h3>) Tj
+0 -12 Td
+(L169:             <div class="tags">) Tj
+0 -12 Td
+(L170:               <span class="tag">BRAND IDENTITY</span>) Tj
+0 -12 Td
+(L171:               <span class="tag">BRAND STRATEGY</span>) Tj
+0 -12 Td
+(L172:               <span class="tag">BRAND SYSTEM</span>) Tj
+0 -12 Td
+(L173:               <span class="tag">CREATIVE DIRECTION</span>) Tj
+0 -12 Td
+(L174:               <span class="tag">GRAPHIC DESIGN</span>) Tj
+0 -12 Td
+(L175:               <span class="tag">ILLUSTRATION</span>) Tj
+0 -12 Td
+(L176:               <span class="tag">LOGO</span>) Tj
+0 -12 Td
+(L177:               <span class="tag">WEB DESIGN</span>) Tj
+0 -12 Td
+(L178:               <span class="tag">PRODUCT DESIGN</span>) Tj
+0 -12 Td
+(L179:               <span class="tag">DESIGN SYSTEMS</span>) Tj
+0 -12 Td
+(L180:               <span class="tag">WORDPRESS</span>) Tj
+0 -12 Td
+(L181:             </div>) Tj
+0 -12 Td
+(L182:           </div>) Tj
+0 -12 Td
+(L184:           <div class="resume-section">) Tj
+0 -12 Td
+(L185:             <h3 class="pixel-title">SELECTED CLIENTS</h3>) Tj
+0 -12 Td
+(L186:             <p class="resume-line">NATIONALE NEDERLANDEN - LEROY MERLIN - HP - HERMES -) Tj
+0 -12 Td
+(      HEMA - SPACES - HEINEKEN - FUJIF - MELITTA - YOIGO - TELEFIZZA</p>) Tj
+0 -12 Td
+(L187:           </div>) Tj
+0 -12 Td
+(L189:           <div class="resume-section">) Tj
+0 -12 Td
+(L190:             <h3 class="pixel-title">CONTACT</h3>) Tj
+0 -12 Td
+(L191:             <div class="contact-list">) Tj
+0 -12 Td
+(L192:               <span>CHUSMARGALLO@GMAIL.COM</span>) Tj
+0 -12 Td
+(L193:               <span>BOOK A CALL</span>) Tj
+0 -12 Td
+(L194:               <span>X</span>) Tj
+0 -12 Td
+(L195:               <span>LINKEDIN</span>) Tj
+0 -12 Td
+(L196:               <span>BEHANCE</span>) Tj
+0 -12 Td
+(L197:               <span>DRIBBBLE</span>) Tj
+0 -12 Td
+(L198:             </div>) Tj
+0 -12 Td
+(L199:           </div>) Tj
+0 -12 Td
+(L200:         </div>) Tj
+0 -12 Td
+(L201:       </div>) Tj
+0 -12 Td
+(L202:     </section>) Tj
+0 -12 Td
+(Explanation: Window section: About/resume view with skills, clients, and contact.) Tj
+0 -12 Td
+(Block 33 \(lines 204-224\)) Tj
+0 -12 Td
+(L204:     <section class="window" id="window-paint" data-title="PAINT" role="dialog" aria-) Tj
+0 -12 Td
+(      hidden="true">) Tj
+0 -12 Td
+(L205:       <div class="window-titlebar">) Tj
+0 -12 Td
+(L206:         <div class="window-controls">) Tj
+0 -12 Td
+(L207:           <button class="control close" data-action="close" aria-label="Close"></button>) Tj
+0 -12 Td
+(L208:           <button class="control minimize" data-action="minimize" aria-) Tj
+0 -12 Td
+(      label="Minimize"></button>) Tj
+0 -12 Td
+(L209:           <button class="control maximize" data-action="maximize" aria-) Tj
+0 -12 Td
+(      label="Maximize"></button>) Tj
+0 -12 Td
+(L210:         </div>) Tj
+0 -12 Td
+(L211:         <div class="window-title">PAINT</div>) Tj
+0 -12 Td
+(L212:         <div></div>) Tj
+0 -12 Td
+(L213:       </div>) Tj
+0 -12 Td
+(L214:       <div class="window-body paint-body">) Tj
+0 -12 Td
+(L215:         <div class="paint-toolbar">) Tj
+0 -12 Td
+(L216:           <label>COLOR <input type="color" id="paint-color" value="#1d4ed8"></label>) Tj
+0 -12 Td
+(L217:           <label>SIZE <input type="range" id="paint-size" min="2" max="18") Tj
+0 -12 Td
+(      value="6"></label>) Tj
+0 -12 Td
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 3831 >>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 36 756 Tm
+(L218:           <button id="paint-clear" type="button">CLEAR</button>) Tj
+0 -12 Td
+(L219:         </div>) Tj
+0 -12 Td
+(L220:         <div class="paint-area">) Tj
+0 -12 Td
+(L221:           <canvas id="paint-canvas"></canvas>) Tj
+0 -12 Td
+(L222:         </div>) Tj
+0 -12 Td
+(L223:       </div>) Tj
+0 -12 Td
+(L224:     </section>) Tj
+0 -12 Td
+(Explanation: Window section: Pixel paint app canvas and tools.) Tj
+0 -12 Td
+(Block 34 \(lines 226-288\)) Tj
+0 -12 Td
+(L226:     <section class="window" id="window-music" data-title="MUSIC" role="dialog" aria-) Tj
+0 -12 Td
+(      hidden="true">) Tj
+0 -12 Td
+(L227:       <div class="window-titlebar">) Tj
+0 -12 Td
+(L228:         <div class="window-controls">) Tj
+0 -12 Td
+(L229:           <button class="control close" data-action="close" aria-label="Close"></button>) Tj
+0 -12 Td
+(L230:           <button class="control minimize" data-action="minimize" aria-) Tj
+0 -12 Td
+(      label="Minimize"></button>) Tj
+0 -12 Td
+(L231:           <button class="control maximize" data-action="maximize" aria-) Tj
+0 -12 Td
+(      label="Maximize"></button>) Tj
+0 -12 Td
+(L232:         </div>) Tj
+0 -12 Td
+(L233:         <div class="window-title">MUSIC</div>) Tj
+0 -12 Td
+(L234:         <div></div>) Tj
+0 -12 Td
+(L235:       </div>) Tj
+0 -12 Td
+(L236:       <div class="window-body music-body">) Tj
+0 -12 Td
+(L237:         <div class="music-card">) Tj
+0 -12 Td
+(L238:           <div class="music-cover" aria-hidden="true"></div>) Tj
+0 -12 Td
+(L239:           <div class="music-info">) Tj
+0 -12 Td
+(L240:             <div class="music-label">NOW PLAYING</div>) Tj
+0 -12 Td
+(L241:             <div class="music-title" id="music-title">GARAGE PUNK</div>) Tj
+0 -12 Td
+(L242:             <div class="music-subtitle" id="music-subtitle">PUNK RADIO</div>) Tj
+0 -12 Td
+(L243:           </div>) Tj
+0 -12 Td
+(L244:         </div>) Tj
+0 -12 Td
+(L246:         <button class="music-play" id="music-play" type="button" aria-label="Play or) Tj
+0 -12 Td
+(      pause">||</button>) Tj
+0 -12 Td
+(L248:         <div class="volume-row">) Tj
+0 -12 Td
+(L249:           <span class="volume-icon" aria-hidden="true">+</span>) Tj
+0 -12 Td
+(L250:           <input class="volume-slider" id="music-volume" type="range" min="0" max="100") Tj
+0 -12 Td
+(      value="39">) Tj
+0 -12 Td
+(L251:           <span class="volume-percent" id="music-volume-percent">39%</span>) Tj
+0 -12 Td
+(L252:         </div>) Tj
+0 -12 Td
+(L254:         <div class="station-section">) Tj
+0 -12 Td
+(L255:           <div class="pixel-title">STATIONS</div>) Tj
+0 -12 Td
+(L256:           <div class="station-list">) Tj
+0 -12 Td
+(L257:             <button class="station-item active" type="button" data-track="GARAGE PUNK") Tj
+0 -12 Td
+(      data-genre="PUNK RADIO">) Tj
+0 -12 Td
+(L258:               <span class="station-meta">) Tj
+0 -12 Td
+(L259:                 <span class="station-name">GARAGE PUNK</span>) Tj
+0 -12 Td
+(L260:                 <span class="station-genre">PUNK</span>) Tj
+0 -12 Td
+(L261:               </span>) Tj
+0 -12 Td
+(L262:               <span class="station-eq" aria-) Tj
+0 -12 Td
+(      hidden="true"><span></span><span></span><span></span></span>) Tj
+0 -12 Td
+(L263:             </button>) Tj
+0 -12 Td
+(L264:             <button class="station-item" type="button" data-track="LO-FI BEATS" data-) Tj
+0 -12 Td
+(      genre="LO-FI RADIO">) Tj
+0 -12 Td
+(L265:               <span class="station-meta">) Tj
+0 -12 Td
+(L266:                 <span class="station-name">LO-FI BEATS</span>) Tj
+0 -12 Td
+(L267:                 <span class="station-genre">LO-FI</span>) Tj
+0 -12 Td
+(L268:               </span>) Tj
+0 -12 Td
+(L269:               <span class="station-eq" aria-) Tj
+0 -12 Td
+(      hidden="true"><span></span><span></span><span></span></span>) Tj
+0 -12 Td
+(L270:             </button>) Tj
+0 -12 Td
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 3899 >>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 36 756 Tm
+(L271:             <button class="station-item" type="button" data-track="MIDNIGHT SYNTH" data-) Tj
+0 -12 Td
+(      genre="SYNTH RADIO">) Tj
+0 -12 Td
+(L272:               <span class="station-meta">) Tj
+0 -12 Td
+(L273:                 <span class="station-name">MIDNIGHT SYNTH</span>) Tj
+0 -12 Td
+(L274:                 <span class="station-genre">SYNTH</span>) Tj
+0 -12 Td
+(L275:               </span>) Tj
+0 -12 Td
+(L276:               <span class="station-eq" aria-) Tj
+0 -12 Td
+(      hidden="true"><span></span><span></span><span></span></span>) Tj
+0 -12 Td
+(L277:             </button>) Tj
+0 -12 Td
+(L278:             <button class="station-item" type="button" data-track="BEACH CHILL" data-) Tj
+0 -12 Td
+(      genre="CHILL RADIO">) Tj
+0 -12 Td
+(L279:               <span class="station-meta">) Tj
+0 -12 Td
+(L280:                 <span class="station-name">BEACH CHILL</span>) Tj
+0 -12 Td
+(L281:                 <span class="station-genre">CHILL</span>) Tj
+0 -12 Td
+(L282:               </span>) Tj
+0 -12 Td
+(L283:               <span class="station-eq" aria-) Tj
+0 -12 Td
+(      hidden="true"><span></span><span></span><span></span></span>) Tj
+0 -12 Td
+(L284:             </button>) Tj
+0 -12 Td
+(L285:           </div>) Tj
+0 -12 Td
+(L286:         </div>) Tj
+0 -12 Td
+(L287:       </div>) Tj
+0 -12 Td
+(L288:     </section>) Tj
+0 -12 Td
+(Explanation: Window section: Music player UI with stations, volume, and play control.) Tj
+0 -12 Td
+(Block 35 \(lines 290-352\)) Tj
+0 -12 Td
+(L290:     <section class="window" id="window-settings" data-title="SETTINGS" role="dialog" aria-) Tj
+0 -12 Td
+(      hidden="true">) Tj
+0 -12 Td
+(L291:       <div class="window-titlebar">) Tj
+0 -12 Td
+(L292:         <div class="window-controls">) Tj
+0 -12 Td
+(L293:           <button class="control close" data-action="close" aria-label="Close"></button>) Tj
+0 -12 Td
+(L294:           <button class="control minimize" data-action="minimize" aria-) Tj
+0 -12 Td
+(      label="Minimize"></button>) Tj
+0 -12 Td
+(L295:           <button class="control maximize" data-action="maximize" aria-) Tj
+0 -12 Td
+(      label="Maximize"></button>) Tj
+0 -12 Td
+(L296:         </div>) Tj
+0 -12 Td
+(L297:         <div class="window-title">SETTINGS</div>) Tj
+0 -12 Td
+(L298:         <div></div>) Tj
+0 -12 Td
+(L299:       </div>) Tj
+0 -12 Td
+(L300:       <div class="window-body settings-body">) Tj
+0 -12 Td
+(L301:         <div class="settings-section">) Tj
+0 -12 Td
+(L302:           <h3 class="pixel-title">APPEARANCE</h3>) Tj
+0 -12 Td
+(L303:           <div class="appearance-options">) Tj
+0 -12 Td
+(L304:             <button class="appearance-option active" type="button" data-theme="light">) Tj
+0 -12 Td
+(L305:               <span class="appearance-icon light" aria-hidden="true"></span>) Tj
+0 -12 Td
+(L306:               LIGHT) Tj
+0 -12 Td
+(L307:             </button>) Tj
+0 -12 Td
+(L308:             <button class="appearance-option" type="button" data-theme="dark">) Tj
+0 -12 Td
+(L309:               <span class="appearance-icon dark" aria-hidden="true"></span>) Tj
+0 -12 Td
+(L310:               DARK) Tj
+0 -12 Td
+(L311:             </button>) Tj
+0 -12 Td
+(L312:           </div>) Tj
+0 -12 Td
+(L313:         </div>) Tj
+0 -12 Td
+(L314:         <div class="settings-section">) Tj
+0 -12 Td
+(L315:           <h3 class="pixel-title">BACKGROUND</h3>) Tj
+0 -12 Td
+(L316:           <div class="background-grid">) Tj
+0 -12 Td
+(L317:             <button class="bg-option" type="button" data-bg="warm">) Tj
+0 -12 Td
+(L318:               <span class="bg-thumb bg-warm" aria-hidden="true"></span>) Tj
+0 -12 Td
+(L319:               <span class="bg-label">WARM NEUTRAL</span>) Tj
+0 -12 Td
+(L320:             </button>) Tj
+0 -12 Td
+(L321:             <button class="bg-option" type="button" data-bg="cool">) Tj
+0 -12 Td
+(L322:               <span class="bg-thumb bg-cool" aria-hidden="true"></span>) Tj
+0 -12 Td
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 3906 >>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 36 756 Tm
+(L323:               <span class="bg-label">COOL GRAY</span>) Tj
+0 -12 Td
+(L324:             </button>) Tj
+0 -12 Td
+(L325:             <button class="bg-option" type="button" data-bg="lavender">) Tj
+0 -12 Td
+(L326:               <span class="bg-thumb bg-lavender" aria-hidden="true"></span>) Tj
+0 -12 Td
+(L327:               <span class="bg-label">LAVENDER</span>) Tj
+0 -12 Td
+(L328:             </button>) Tj
+0 -12 Td
+(L329:             <button class="bg-option" type="button" data-bg="forest">) Tj
+0 -12 Td
+(L330:               <span class="bg-thumb bg-forest" aria-hidden="true"></span>) Tj
+0 -12 Td
+(L331:               <span class="bg-label">FOREST</span>) Tj
+0 -12 Td
+(L332:             </button>) Tj
+0 -12 Td
+(L333:             <button class="bg-option" type="button" data-bg="sunset">) Tj
+0 -12 Td
+(L334:               <span class="bg-thumb bg-sunset" aria-hidden="true"></span>) Tj
+0 -12 Td
+(L335:               <span class="bg-label">SUNSET</span>) Tj
+0 -12 Td
+(L336:             </button>) Tj
+0 -12 Td
+(L337:             <button class="bg-option" type="button" data-bg="clouds">) Tj
+0 -12 Td
+(L338:               <span class="bg-thumb bg-clouds" aria-hidden="true"></span>) Tj
+0 -12 Td
+(L339:               <span class="bg-label">CLOUDS</span>) Tj
+0 -12 Td
+(L340:             </button>) Tj
+0 -12 Td
+(L341:             <button class="bg-option" type="button" data-bg="street">) Tj
+0 -12 Td
+(L342:               <span class="bg-thumb bg-street" aria-hidden="true"></span>) Tj
+0 -12 Td
+(L343:               <span class="bg-label">STREET</span>) Tj
+0 -12 Td
+(L344:             </button>) Tj
+0 -12 Td
+(L345:             <button class="bg-option active" type="button" data-bg="beach">) Tj
+0 -12 Td
+(L346:               <span class="bg-thumb bg-beach" aria-hidden="true"></span>) Tj
+0 -12 Td
+(L347:               <span class="bg-label">BEACH</span>) Tj
+0 -12 Td
+(L348:             </button>) Tj
+0 -12 Td
+(L349:           </div>) Tj
+0 -12 Td
+(L350:         </div>) Tj
+0 -12 Td
+(L351:       </div>) Tj
+0 -12 Td
+(L352:     </section>) Tj
+0 -12 Td
+(Explanation: Window section: Settings panel for appearance and background themes.) Tj
+0 -12 Td
+(Block 36 \(lines 354-370\)) Tj
+0 -12 Td
+(L354:     <footer class="dock" aria-label="Dock">) Tj
+0 -12 Td
+(L355:       <button class="dock-icon" data-window="window-about" type="button">) Tj
+0 -12 Td
+(L356:         <svg class="icon"><use href="#icon-user"></use></svg>) Tj
+0 -12 Td
+(L357:       </button>) Tj
+0 -12 Td
+(L358:       <button class="dock-icon" data-window="window-computer" type="button">) Tj
+0 -12 Td
+(L359:         <svg class="icon"><use href="#icon-computer"></use></svg>) Tj
+0 -12 Td
+(L360:       </button>) Tj
+0 -12 Td
+(L361:       <button class="dock-icon" data-window="window-paint" type="button">) Tj
+0 -12 Td
+(L362:         <svg class="icon"><use href="#icon-paint"></use></svg>) Tj
+0 -12 Td
+(L363:       </button>) Tj
+0 -12 Td
+(L364:       <button class="dock-icon" data-window="window-music" type="button">) Tj
+0 -12 Td
+(L365:         <svg class="icon"><use href="#icon-music"></use></svg>) Tj
+0 -12 Td
+(L366:       </button>) Tj
+0 -12 Td
+(L367:       <button class="dock-icon" data-window="window-settings" type="button">) Tj
+0 -12 Td
+(L368:         <svg class="icon"><use href="#icon-gear"></use></svg>) Tj
+0 -12 Td
+(L369:       </button>) Tj
+0 -12 Td
+(L370:     </footer>) Tj
+0 -12 Td
+(Explanation: Dock with quick-launch app icons.) Tj
+0 -12 Td
+(Block 37 \(lines 371-371\)) Tj
+0 -12 Td
+(L371:   </div>) Tj
+0 -12 Td
+(Explanation: HTML structure block.) Tj
+0 -12 Td
+(Block 38 \(lines 373-373\)) Tj
+0 -12 Td
+(L373:   <script src="app.js" defer></script>) Tj
+0 -12 Td
+(Explanation: Loads the JavaScript that powers UI interactions.) Tj
+0 -12 Td
+(Block 39 \(lines 374-374\)) Tj
+0 -12 Td
+(L374: </body>) Tj
+0 -12 Td
+(Explanation: Closes the body element.) Tj
+0 -12 Td
+(Block 40 \(lines 375-375\)) Tj
+0 -12 Td
+ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 117 >>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 36 756 Tm
+(L375: </html>) Tj
+0 -12 Td
+(Explanation: Closes the root HTML element.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+xref
+0 22
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000000190 00000 n 
+0000004245 00000 n 
+0000004371 00000 n 
+0000007951 00000 n 
+0000008077 00000 n 
+0000011502 00000 n 
+0000011628 00000 n 
+0000015623 00000 n 
+0000015750 00000 n 
+0000019587 00000 n 
+0000019715 00000 n 
+0000023599 00000 n 
+0000023727 00000 n 
+0000027679 00000 n 
+0000027807 00000 n 
+0000031766 00000 n 
+0000031894 00000 n 
+0000032063 00000 n 
+0000032191 00000 n 
+trailer
+<< /Size 22 /Root 21 0 R >>
+startxref
+32241
+%%EOF

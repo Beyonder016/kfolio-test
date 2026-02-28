@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 id="test"></h1>
+      <div id="img"></div>
+    </div>
+
+    <table border="1" cellpadding="8" cellspacing="0">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+
+    <script>
+
+      let API = "https://api.github.com/users";
+
+      async function getData() {
+        let data = await fetch(API);
+        let result = await data.json();
+
+        let rows = "";
+
+        result.forEach((user) => {
+          rows += `
+              <tr>
+                <td>${user.id}</td>
+                <td>${user.login}</td>
+                <td>
+                  <img src="${user.avatar_url}" width="50" height="50">
+                </td>
+              </tr>`;
+        });
+
+        document.getElementById("tableBody").innerHTML = rows;
+      }
+
+      getData();
+    </script>
+  </body>
+</html>

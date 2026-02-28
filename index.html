@@ -1,0 +1,854 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixel OS Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <svg class="sprite" aria-hidden="true" focusable="false">
+      <symbol
+        id="icon-computer"
+        viewBox="0 0 24 24"
+        shape-rendering="crispEdges"
+      >
+        <rect x="2" y="3" width="20" height="14" fill="#93c5fd" />
+        <rect x="3" y="4" width="18" height="12" fill="#e0f2fe" />
+        <rect
+          x="2"
+          y="3"
+          width="20"
+          height="14"
+          fill="none"
+          stroke="#1f2937"
+          stroke-width="1"
+        />
+        <rect x="9" y="17" width="6" height="2" fill="#1f2937" />
+        <rect x="7" y="19" width="10" height="2" fill="#475569" />
+      </symbol>
+      <symbol id="icon-user" viewBox="0 0 24 24" shape-rendering="crispEdges">
+        <rect x="8" y="3" width="8" height="8" fill="#fbcfe8" />
+        <rect x="7" y="4" width="10" height="6" fill="#f9a8d4" />
+        <rect x="6" y="11" width="12" height="8" fill="#a855f7" />
+        <rect x="4" y="19" width="16" height="3" fill="#7c3aed" />
+      </symbol>
+      <symbol id="icon-paint" viewBox="0 0 24 24" shape-rendering="crispEdges">
+        <rect
+          x="3"
+          y="4"
+          width="18"
+          height="16"
+          fill="#fef08a"
+          stroke="#92400e"
+          stroke-width="1"
+        />
+        <rect x="5" y="6" width="4" height="4" fill="#f87171" />
+        <rect x="10" y="6" width="4" height="4" fill="#60a5fa" />
+        <rect x="15" y="6" width="4" height="4" fill="#4ade80" />
+        <rect x="8" y="12" width="8" height="4" fill="#fdba74" />
+        <rect x="6" y="18" width="12" height="2" fill="#92400e" />
+      </symbol>
+      <symbol id="icon-doc" viewBox="0 0 24 24" shape-rendering="crispEdges">
+        <rect
+          x="5"
+          y="3"
+          width="14"
+          height="18"
+          fill="#f8fafc"
+          stroke="#1f2937"
+          stroke-width="1"
+        />
+        <rect x="7" y="7" width="10" height="2" fill="#94a3b8" />
+        <rect x="7" y="11" width="10" height="2" fill="#94a3b8" />
+        <rect x="7" y="15" width="8" height="2" fill="#94a3b8" />
+      </symbol>
+      <symbol id="icon-music" viewBox="0 0 24 24" shape-rendering="crispEdges">
+        <rect
+          x="3"
+          y="6"
+          width="18"
+          height="12"
+          fill="#38bdf8"
+          stroke="#0f172a"
+          stroke-width="1"
+        />
+        <rect x="5" y="8" width="6" height="8" fill="#0ea5e9" />
+        <rect x="13" y="8" width="6" height="8" fill="#0ea5e9" />
+        <rect x="9" y="10" width="6" height="4" fill="#e2e8f0" />
+      </symbol>
+      <symbol id="icon-gear" viewBox="0 0 24 24" shape-rendering="crispEdges">
+        <rect x="9" y="2" width="6" height="4" fill="#22d3ee" />
+        <rect x="9" y="18" width="6" height="4" fill="#22d3ee" />
+        <rect x="2" y="9" width="4" height="6" fill="#22d3ee" />
+        <rect x="18" y="9" width="4" height="6" fill="#22d3ee" />
+        <rect x="7" y="7" width="10" height="10" fill="#0f172a" />
+        <rect x="9" y="9" width="6" height="6" fill="#38bdf8" />
+      </symbol>
+      <symbol
+        id="icon-guestbook"
+        viewBox="0 0 24 24"
+        shape-rendering="crispEdges"
+      >
+        <rect x="10" y="9" width="4" height="9" fill="#8b5e3c" />
+        <rect x="9" y="8" width="6" height="2" fill="#a16a40" />
+        <rect x="7" y="6" width="10" height="2" fill="#22c55e" />
+        <rect x="5" y="5" width="6" height="2" fill="#4ade80" />
+        <rect x="13" y="5" width="6" height="2" fill="#4ade80" />
+        <rect x="8" y="3" width="8" height="2" fill="#16a34a" />
+        <rect x="9" y="19" width="6" height="2" fill="#facc15" />
+      </symbol>
+      <symbol id="icon-folder" viewBox="0 0 24 24" shape-rendering="crispEdges">
+        <rect
+          x="2"
+          y="7"
+          width="20"
+          height="13"
+          fill="#facc15"
+          stroke="#a16207"
+          stroke-width="1"
+        />
+        <rect
+          x="2"
+          y="5"
+          width="10"
+          height="4"
+          fill="#fde047"
+          stroke="#a16207"
+          stroke-width="1"
+        />
+      </symbol>
+    </svg>
+
+    <div id="desktop">
+      <header class="topbar">
+        <div class="menu-left">
+          <div class="menu-root">
+            <button
+              class="menu-button"
+              id="menu-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="menu-dropdown"
+            >
+              <img
+                class="menu-logo"
+                src="icons/girl.png"
+                alt="GOAT logo placeholder"
+              />
+              KHUSHI
+            </button>
+            <div
+              class="menu-dropdown"
+              id="menu-dropdown"
+              role="menu"
+              aria-label="Goat menu"
+            >
+              <button
+                class="menu-option"
+                type="button"
+                data-menu-action="about"
+              >
+                ABOUT THIS WEB
+              </button>
+              <button
+                class="menu-option"
+                type="button"
+                data-menu-action="settings"
+              >
+                SYSTEM PREFERENCES...
+              </button>
+              <div class="menu-separator" role="presentation"></div>
+              <button
+                class="menu-option"
+                type="button"
+                data-menu-action="portfolio"
+              >
+                PORTFOLIO
+              </button>
+              <button
+                class="menu-option"
+                type="button"
+                data-menu-action="login"
+              >
+                LOGIN / REGISTER
+              </button>
+            </div>
+          </div>
+          <button
+            class="menu-item menu-item-button"
+            type="button"
+            data-top-menu="file"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            FILE
+          </button>
+          <button
+            class="menu-item menu-item-button"
+            type="button"
+            data-top-menu="edit"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            EDIT
+          </button>
+          <button
+            class="menu-item menu-item-button"
+            type="button"
+            data-top-menu="view"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            VIEW
+          </button>
+          <button
+            class="menu-item menu-item-button"
+            type="button"
+            data-top-menu="window"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            WINDOW
+          </button>
+          <button
+            class="menu-item menu-item-button"
+            type="button"
+            data-top-menu="help"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            HELP
+          </button>
+        </div>
+        <div class="menu-right" id="clock">THU FEB 5 11:56 PM</div>
+      </header>
+
+      <section class="desktop-icons" aria-label="Desktop icons">
+        <button
+          class="desktop-icon"
+          data-window="window-computer"
+          type="button"
+        >
+          <img
+            class="icon"
+            src="icons/computer.png"
+            alt=""
+            aria-hidden="true"
+            draggable="false"
+          />
+          <span>MY COMPUTER</span>
+        </button>
+        <button class="desktop-icon" data-window="window-about" type="button">
+          <img
+            class="icon"
+            src="icons/about.png"
+            alt=""
+            aria-hidden="true"
+            draggable="false"
+          />
+          <span>ABOUT</span>
+        </button>
+        <button
+          class="desktop-icon"
+          data-window="window-guestbook"
+          type="button"
+        >
+          <img
+            class="icon"
+            src="icons/guestbook.png"
+            alt=""
+            aria-hidden="true"
+            draggable="false"
+          />
+          <span>GUESTBOOK</span>
+        </button>
+        <button class="desktop-icon" data-window="window-music" type="button">
+          <img
+            class="icon"
+            src="icons/music.png"
+            alt=""
+            aria-hidden="true"
+            draggable="false"
+          />
+          <span>MUSIC</span>
+        </button>
+        <button
+          class="desktop-icon"
+          data-window="window-settings"
+          type="button"
+        >
+          <img
+            class="icon"
+            src="icons/settings.png"
+            alt=""
+            aria-hidden="true"
+            draggable="false"
+          />
+          <span>SETTINGS</span>
+        </button>
+      </section>
+
+      <section
+        class="window is-open"
+        id="window-computer"
+        data-title="MY COMPUTER"
+        role="dialog"
+        aria-hidden="false"
+      >
+        <div class="window-titlebar">
+          <div class="window-controls">
+            <button
+              class="control close"
+              data-action="close"
+              aria-label="Close"
+            ></button>
+            <button
+              class="control minimize"
+              data-action="minimize"
+              aria-label="Minimize"
+            ></button>
+            <button
+              class="control maximize"
+              data-action="maximize"
+              aria-label="Maximize"
+            ></button>
+          </div>
+          <div class="window-title">MY COMPUTER</div>
+          <div></div>
+        </div>
+        <div class="window-toolbar">
+          <button class="icon-btn" id="computer-back" type="button"><<</button>
+          <div class="breadcrumb" id="computer-breadcrumb">PORTFOLIO</div>
+        </div>
+        <div class="window-body">
+          <aside class="file-sidebar" id="computer-sidebar">
+            <button
+              class="sidebar-item active"
+              data-section="portfolio"
+              type="button"
+            >
+              <img
+                class="icon small"
+                src="icons/portfolio.png"
+                alt=""
+                aria-hidden="true"
+              />
+              PORTFOLIO
+            </button>
+            <button class="sidebar-item" data-section="about" type="button">
+              <img
+                class="icon small"
+                src="icons/about.png"
+                alt=""
+                aria-hidden="true"
+              />
+              ABOUT
+            </button>
+            <button class="sidebar-item" data-section="contact" type="button">
+              <img
+                class="icon small"
+                src="icons/contact.png"
+                alt=""
+                aria-hidden="true"
+              />
+              CONTACT
+            </button>
+            <button
+              class="sidebar-item"
+              data-section="experience"
+              type="button"
+            >
+              <img
+                class="icon small"
+                src="icons/experience.png"
+                alt=""
+                aria-hidden="true"
+              />
+              WORK EXPERIENCE
+            </button>
+          </aside>
+          <div class="file-list" id="computer-list"></div>
+          <div class="file-preview" id="computer-preview">
+            <div class="empty-state">SELECT A FILE TO PREVIEW</div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="window"
+        id="window-about"
+        data-title="ABOUT"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div class="window-titlebar">
+          <div class="window-controls">
+            <button
+              class="control close"
+              data-action="close"
+              aria-label="Close"
+            ></button>
+            <button
+              class="control minimize"
+              data-action="minimize"
+              aria-label="Minimize"
+            ></button>
+            <button
+              class="control maximize"
+              data-action="maximize"
+              aria-label="Maximize"
+            ></button>
+          </div>
+          <div class="window-title">ABOUT</div>
+          <div></div>
+        </div>
+        <div class="window-body about-body">
+          <div class="resume">
+            <div class="resume-header">
+              <!-- Replace src with your actual profile image file -->
+              <img
+                class="resume-photo"
+                src="prof2.jfif "
+                alt="Khushi Rajput profile placeholder"
+                data-image-placeholder="replace-this-src"
+              />
+              <div class="resume-intro">
+                <h2 class="pixel-title">KHUSHI R RAJPUT</h2>
+                <p>
+                  Data enthusiast with hands-on work in Snowflake, SQL, and
+                  Python, focused on building reliable data workflows and
+                  analytics-ready datasets.
+                </p>
+                <p>
+                  Interested in end-to-end data engineering, from ingestion and
+                  transformation to reporting, with a practical, problem-solving
+                  approach to business data use cases.
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-section">
+              <h3 class="pixel-title">SKILLS</h3>
+              <div class="tags">
+                <span class="tag">SNOWFLAKE</span>
+                <span class="tag">SQL</span>
+                <span class="tag">PYTHON</span>
+                <span class="tag">ETL</span>
+                <span class="tag">DATA WAREHOUSING</span>
+                <span class="tag">DATA MODELING</span>
+                <span class="tag">DATA CLEANING</span>
+                <span class="tag">DATA ANALYSIS</span>
+                <span class="tag">POWER BI</span>
+                <span class="tag">EXCEL</span>
+                <span class="tag">PANDAS</span>
+                <span class="tag">NUMPY</span>
+                <span class="tag">GIT</span>
+                <span class="tag">PROBLEM SOLVING</span>
+                <span class="tag">TEAM COLLABORATION</span>
+              </div>
+            </div>
+
+            <div class="resume-section">
+              <h3 class="pixel-title">EDUCATION</h3>
+              <p class="resume-line">
+                B.E./B.TECH - [College Name] - [Year]<br />
+                Higher Secondary - [School Name]<br />
+                Secondary School - [School Name]
+              </p>
+            </div>
+
+            <div class="resume-section">
+              <h3 class="pixel-title">PROJECT HIGHLIGHTS</h3>
+              <p class="resume-line">
+                SNOWFLAKE DATA WAREHOUSE PROJECT - Designed and queried
+                structured datasets for reporting and business insights<br />
+                ETL PIPELINE AUTOMATION - Built Python and SQL-based data flow
+                for cleaning, transformation, and loading<br />
+                SALES ANALYTICS DASHBOARD - Prepared KPI-ready data models and
+                reporting views for decision tracking<br />
+                DATA QUALITY CHECK FRAMEWORK - Implemented validation steps for
+                consistency, completeness, and error handling<br /><br />
+                CERTIFICATION TRACK - Snowflake/Data Engineering learning path
+                and practical implementation work
+              </p>
+            </div>
+
+            <div class="resume-section">
+              <h3 class="pixel-title">CONTACT</h3>
+              <div class="contact-list">
+                <span>EMAIL: 03rajput.ki@gmail.com</span>
+                <span>WORK EMAIL: khushi.ranjitsing-rajput@capgemini.com</span>
+                <span>PHONE: [Phone Number]</span>
+                <span>LOCATION: Mumbai, India</span>
+                <span>GITHUB: github.com/rkhushii</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="window"
+        id="window-guestbook"
+        data-title="GUESTBOOK"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div class="window-titlebar">
+          <div class="window-controls">
+            <button
+              class="control close"
+              data-action="close"
+              aria-label="Close"
+            ></button>
+            <button
+              class="control minimize"
+              data-action="minimize"
+              aria-label="Minimize"
+            ></button>
+            <button
+              class="control maximize"
+              data-action="maximize"
+              aria-label="Maximize"
+            ></button>
+          </div>
+          <div class="window-title">GUESTBOOK</div>
+          <div></div>
+        </div>
+        <div class="window-body guestbook-body">
+          <div class="guestbook-panel">
+            <div class="guestbook-header">
+              <h3 class="pixel-title">SIGN THE GUESTBOOK</h3>
+              <div class="guestbook-sign">
+                <input
+                  class="guestbook-input"
+                  id="guestbook-name"
+                  type="text"
+                  placeholder="YOUR NAME"
+                  maxlength="24"
+                />
+                <button
+                  class="guestbook-button"
+                  id="guestbook-submit"
+                  type="button"
+                >
+                  SIGN
+                </button>
+              </div>
+            </div>
+            <div class="guestbook-emojis" id="guestbook-emojis">
+              <button class="emoji-button active" type="button" data-emoji=":)">
+                :)
+              </button>
+              <button class="emoji-button" type="button" data-emoji=":D">
+                :D
+              </button>
+              <button class="emoji-button" type="button" data-emoji=";P">
+                ;P
+              </button>
+              <button class="emoji-button" type="button" data-emoji=":O">
+                :O
+              </button>
+              <button class="emoji-button" type="button" data-emoji="B)">
+                B)
+              </button>
+              <button class="emoji-button" type="button" data-emoji="XD">
+                XD
+              </button>
+              <button class="emoji-button" type="button" data-emoji=":'(">
+                :'(
+              </button>
+              <button class="emoji-button" type="button" data-emoji="&lt;3">
+                &lt;3
+              </button>
+            </div>
+            <div class="guestbook-message">
+              <textarea
+                id="guestbook-message"
+                placeholder="LEAVE A MESSAGE..."
+                maxlength="500"
+              ></textarea>
+              <div class="guestbook-count">
+                <span id="guestbook-count">0</span>/500
+              </div>
+            </div>
+          </div>
+          <div class="guestbook-entries" id="guestbook-entries">
+            <div class="guestbook-entry">
+              <div class="entry-title">
+                <span class="entry-emoji">:)</span>
+                <span class="entry-name">ERAY</span>
+                <span class="entry-date">FEB 6, 2026</span>
+              </div>
+              <div class="entry-message">TURK</div>
+            </div>
+            <div class="guestbook-entry">
+              <div class="entry-title">
+                <span class="entry-emoji">XD</span>
+                <span class="entry-name">GERALD</span>
+                <span class="entry-date">FEB 5, 2026</span>
+              </div>
+              <div class="entry-message">COOL PROJECT</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="window"
+        id="window-music"
+        data-title="MUSIC"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div class="window-titlebar">
+          <div class="window-controls">
+            <button
+              class="control close"
+              data-action="close"
+              aria-label="Close"
+            ></button>
+            <button
+              class="control minimize"
+              data-action="minimize"
+              aria-label="Minimize"
+            ></button>
+            <button
+              class="control maximize"
+              data-action="maximize"
+              aria-label="Maximize"
+            ></button>
+          </div>
+          <div class="window-title">MUSIC</div>
+          <div></div>
+        </div>
+        <div class="window-body music-body">
+          <div class="music-card">
+            <div class="music-cover" aria-hidden="true"></div>
+            <div class="music-info">
+              <div class="music-label">NOW PLAYING</div>
+              <div class="music-title" id="music-title">
+                The Less I Know The Better
+              </div>
+              <div class="music-subtitle" id="music-subtitle">Tame Impala</div>
+            </div>
+          </div>
+
+          <button
+            class="music-play"
+            id="music-play"
+            type="button"
+            aria-label="Play or pause"
+          >
+            ||
+          </button>
+
+          <div class="volume-row">
+            <span class="volume-icon" aria-hidden="true">+</span>
+            <input
+              class="volume-slider"
+              id="music-volume"
+              type="range"
+              min="0"
+              max="100"
+              value="39"
+            />
+            <span class="volume-percent" id="music-volume-percent">39%</span>
+          </div>
+
+          <div class="station-section">
+            <div class="pixel-title">STATIONS</div>
+            <div class="station-list">
+              <button
+                class="station-item active"
+                type="button"
+                data-track="The Less I Know The Better"
+                data-genre="Tame Impala"
+                data-audio="track-1"
+              >
+                <span class="station-meta">
+                  <span class="station-name">The Less I Know The Better</span>
+                  <span class="station-genre">Tame Impala</span>
+                </span>
+                <span class="station-eq" aria-hidden="true"
+                  ><span></span><span></span><span></span
+                ></span>
+              </button>
+              <button
+                class="station-item"
+                type="button"
+                data-track="The Less I Know The Better 2"
+                data-genre="Tame Impala"
+                data-audio="track-2"
+              >
+                <span class="station-meta">
+                  <span class="station-name">The Less I Know The Better 2</span>
+                  <span class="station-genre">Tame Impala</span>
+                </span>
+                <span class="station-eq" aria-hidden="true"
+                  ><span></span><span></span><span></span
+                ></span>
+              </button>
+              <button
+                class="station-item"
+                type="button"
+                data-track="Borderline"
+                data-genre="Tame Impala"
+                data-audio="track-3"
+              >
+                <span class="station-meta">
+                  <span class="station-name">Borderline</span>
+                  <span class="station-genre">Tame Impala</span>
+                </span>
+                <span class="station-eq" aria-hidden="true"
+                  ><span></span><span></span><span></span
+                ></span>
+              </button>
+              <button
+                class="station-item"
+                type="button"
+                data-track="Viva La Vida"
+                data-genre="COLDPLAY"
+                data-audio="track-4"
+              >
+                <span class="station-meta">
+                  <span class="station-name">Viva La Vida</span>
+                  <span class="station-genre">Coldplay</span>
+                </span>
+                <span class="station-eq" aria-hidden="true"
+                  ><span></span><span></span><span></span
+                ></span>
+              </button>
+            </div>
+          </div>
+          <audio id="track-1" src="audio/theless1.mp3" preload="none"></audio>
+          <audio id="track-2" src="audio/theless2.mp3" preload="none"></audio>
+          <audio id="track-3" src="audio/borderline.mp3" preload="none"></audio>
+          <audio id="track-4" src="audio/vivalavida.mp3" preload="none"></audio>
+        </div>
+      </section>
+
+      <section
+        class="window"
+        id="window-settings"
+        data-title="SETTINGS"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div class="window-titlebar">
+          <div class="window-controls">
+            <button
+              class="control close"
+              data-action="close"
+              aria-label="Close"
+            ></button>
+            <button
+              class="control minimize"
+              data-action="minimize"
+              aria-label="Minimize"
+            ></button>
+            <button
+              class="control maximize"
+              data-action="maximize"
+              aria-label="Maximize"
+            ></button>
+          </div>
+          <div class="window-title">SETTINGS</div>
+          <div></div>
+        </div>
+        <div class="window-body settings-body">
+          <div class="settings-section">
+            <h3 class="pixel-title">APPEARANCE</h3>
+            <div class="appearance-options">
+              <button
+                class="appearance-option active"
+                type="button"
+                data-theme="light"
+              >
+                <span class="appearance-icon light" aria-hidden="true"></span>
+                LIGHT
+              </button>
+              <button class="appearance-option" type="button" data-theme="dark">
+                <span class="appearance-icon dark" aria-hidden="true"></span>
+                DARK
+              </button>
+            </div>
+          </div>
+          <div class="settings-section">
+            <h3 class="pixel-title">BACKGROUND</h3>
+            <div class="background-grid">
+              <button class="bg-option" type="button" data-bg="warm">
+                <span class="bg-thumb bg-warm" aria-hidden="true"></span>
+                <span class="bg-label">Cats1</span>
+              </button>
+              <button class="bg-option" type="button" data-bg="cool">
+                <span class="bg-thumb bg-cool" aria-hidden="true"></span>
+                <span class="bg-label">Kdrama</span>
+              </button>
+              <button class="bg-option" type="button" data-bg="lavender">
+                <span class="bg-thumb bg-lavender" aria-hidden="true"></span>
+                <span class="bg-label">Cats2</span>
+              </button>
+              <button class="bg-option" type="button" data-bg="forest">
+                <span class="bg-thumb bg-forest" aria-hidden="true"></span>
+                <span class="bg-label">Cats3</span>
+              </button>
+              <button class="bg-option" type="button" data-bg="sunset">
+                <span class="bg-thumb bg-sunset" aria-hidden="true"></span>
+                <span class="bg-label">SUNSET</span>
+              </button>
+              <button class="bg-option" type="button" data-bg="clouds">
+                <span class="bg-thumb bg-clouds" aria-hidden="true"></span>
+                <span class="bg-label">Khushi1</span>
+              </button>
+              <button class="bg-option" type="button" data-bg="street">
+                <span class="bg-thumb bg-street" aria-hidden="true"></span>
+                <span class="bg-label">Khushi2</span>
+              </button>
+              <button class="bg-option active" type="button" data-bg="beach">
+                <span class="bg-thumb bg-beach" aria-hidden="true"></span>
+                <span class="bg-label">Khushi3</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="dock" aria-label="Dock">
+        <button class="dock-icon" data-window="window-about" type="button">
+          <img class="icon" src="icons/about.png" alt="" aria-hidden="true" />
+        </button>
+        <button class="dock-icon" data-window="window-computer" type="button">
+          <img
+            class="icon"
+            src="icons/computer.png"
+            alt=""
+            aria-hidden="true"
+          />
+        </button>
+        <button class="dock-icon" data-window="window-guestbook" type="button">
+          <img
+            class="icon"
+            src="icons/guestbook.png"
+            alt=""
+            aria-hidden="true"
+          />
+        </button>
+        <button class="dock-icon" data-window="window-music" type="button">
+          <img class="icon" src="icons/music.png" alt="" aria-hidden="true" />
+        </button>
+        <button class="dock-icon" data-window="window-settings" type="button">
+          <img
+            class="icon"
+            src="icons/settings.png"
+            alt=""
+            aria-hidden="true"
+          />
+        </button>
+      </footer>
+    </div>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
